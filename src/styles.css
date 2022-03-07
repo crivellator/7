@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; 
+    background-image: url(https://previews.123rf.com/images/_ig0rzh_/_ig0rzh_1501/_ig0rzh_150100029/35596644-pron%C3%B3stico-del-clima-concepto-de-fondo-las-condiciones-clim%C3%A1ticas-diversas-sol-brillante-y-el-cielo-.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}

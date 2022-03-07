@@ -1,0 +1,66 @@
+.formInserimento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.formInserimento input {
+    margin: 20px;
+}
+
+.schedaCitta {
+    width: 400px;
+    margin: 25px;
+    background-color: rgb(161, 161, 161);
+    box-shadow: 14px 14px 8px black;
+}
+
+.schedaCitta img {
+    background-color: white;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.visualizzaSettimana {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.visualizzaSettimana img {
+    max-width: 30px;
+    padding: 5px 10px;
+}
+
+mat-card-subtitle {
+    color: white;
+    text-shadow: 2px 2px black;
+    font-weight: 400;
+    font-size: large;
+    padding: 10px 0px;
+}
+
+mat-card-title {
+    background-color: rgb(255, 255, 0);
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    padding: 7px;
+}
+
+mat-card-content {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+.visualizzazioneElementi {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
