@@ -1,5 +1,8 @@
 # ESAMINOKING
 
+sa sa prova...
+speriamo che sia il primo di tanti altri e remunerativi progetti = ]
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.3.
 
 ## Development server
