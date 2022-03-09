@@ -19,7 +19,10 @@ export class AppComponent {
     this.meteoservizio.grabCity(this.cittade).subscribe({ // prima chiamata API, prende l'id della città
       next: (risultato: any) => { rawobj = risultato[0] },
       error: () => { alert("!!!ERRORE DI CONNESSIONE!!!") },
-      complete: () => { this.acchiappaGiorno(rawobj.woeid), 1} // chiama l'altra funzione che contiene la II chiamata API
+      complete: () => { // chiama l'altra funzione che contiene la II chiamata API
+        if (rawobj !== undefined) this.acchiappaGiorno(rawobj.woeid);
+        else alert("City not found..");
+      } 
     });
 
   }
